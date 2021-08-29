@@ -1,13 +1,22 @@
 {
-  "name": "reactnativetypescriptjest",
+  "name": "react-native-typescript-template",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
+  "description": "A Typescript React Native boilerplate to start your project quickly",
+  "author": "Bhishak Sanyal <sanyalbishak93@gmail.com>",
+  "license": "MIT",
   "scripts": {
+    "tsc": "./node_modules/typescript/bin/tsc",
+    "jetify": "npx jetify",
+    "rename": "react-native-rename",
+    "coverage": "jest --verbose --coverage && open ./coverage/lcov-report/index.html",
+    "test:watch": "jest --verbose --watch",
+    "test:update": "jest --verbose --coverage --updateSnapshot",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
-    "lint": "tsc --noEmit && eslint '*/**/*.{js,jsx,ts,tsx}' --fix",
+    "test": "jest --verbose --coverage",
+    "lint": "yarn tsc && eslint . --ext .js,.ts,.tsx --cache",
     "prettier:write": "npx prettier --write **/*.{js,jsx,ts,tsx} && npx prettier --write *.{js,jsx,ts,tsx}"
   },
   "dependencies": {
