@@ -6,4 +6,28 @@
 
 # React Native Typescript Starter Template
 
-Todo
+A react-native typescript starter template with inbuilt ready to use Eslint, Prettier, Jest and Typescript setup.
+
+### Getting Started
+
+1. Clone and install
+```
+# Clone the repo
+git clone https://github.com/bhishaksanyal/react-native-typescript-template.git
+
+# Navigate to clonned folder and Install dependencies
+cd react-native-typescript-template && yarn install
+
+# Install Pods
+cd ios && pod install
+```
+
+2. Run in iOS simulator
+```
+yarn ios
+```
+
+3. Run in Android simulator
+```
+yarn android
+```
