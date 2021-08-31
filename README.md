@@ -9,7 +9,7 @@
 A react-native typescript starter template with inbuilt ready to use Eslint, Prettier, Jest and Typescript setup.
 
 ### Getting Started
-
+#
 1. Clone and install
 ```
 # Clone the repo
@@ -22,12 +22,47 @@ cd react-native-typescript-template && yarn install
 cd ios && pod install
 ```
 
-2. Run in iOS simulator
+2. Rename the project
+```
+yarn rename <PROJECT_NAME>
+```
+3. Migrate to AndroidX to support [React Native 0.60](https://reactnative.dev/blog/2019/07/03/version-60#androidx-support)
+```
+yarn jetify
+```
+4. Remove .git
+```
+rm -rf .git
+```
+5. Run in iOS simulator
 ```
 yarn ios
 ```
-
-3. Run in Android simulator
+6. Run in Android simulator
 ```
 yarn android
 ```
+
+
+### Typescript (https://www.typescriptlang.org/)
+#
+TypeScript is a strongly typed programming language which builds on JavaScript giving you better tooling at any scale.
+
+## What is TypeScript?
+1. JavaScript and More
+
+`
+    TypeScript adds additional syntax to JavaScript to support a tighter integration with your editor. Catch errors early in your editor.
+`
+
+2. A Result You Can Trust
+
+`
+    TypeScript code converts to JavaScript which runs anywhere JavaScript runs: In a browser, on Node.js or Deno and in your apps.
+`
+
+3. Safety at Scale
+
+`
+    TypeScript understands JavaScript and uses type inference to give you great tooling without additional code.
+`
