@@ -3,9 +3,6 @@
         "source.fixAll.eslint": true
     },
     "cSpell.words": [
-        "codegen",
-        "jetify",
-        "reactnativetypescriptjest",
-        "xcworkspace"
+        
     ]
 }
