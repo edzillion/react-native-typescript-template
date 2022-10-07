@@ -7,7 +7,7 @@
 
 # React Native Typescript Starter Template
 
-A react-native typescript starter template with inbuilt ready to use Eslint, Prettier, Jest and Typescript setup. Following are the list of setups which are already done for you to start working on a new project immediately.
+A react-native [typescript](https://www.interviewbit.com/typescript-interview-questions) starter template with inbuilt ready to use Eslint, Prettier, Jest and Typescript setup. Following are the list of setups which are already done for you to start working on a new project immediately.
 
 ### Getting Started
 #
